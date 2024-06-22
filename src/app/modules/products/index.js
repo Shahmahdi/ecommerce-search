@@ -1,14 +1,14 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { Grid, Pagination, TablePagination } from "@mui/material";
+import { Grid, Pagination } from "@mui/material";
 import { getProductList } from "./actions";
 import { ProductItem } from "./components/ProductItem";
 import LoadingSkeleton from "./components/LoadingSkeleton";
 import "./styles.css";
 import { ProductFilters } from "./components/ProductFilters";
 import { useDispatch, useSelector } from "react-redux";
-import { setProductList, setSearchText } from "@/app/redux/slices/ProductSlice";
+import { setProductList } from "@/app/redux/slices/ProductSlice";
 
 const itemsPerPage = 10;
 
