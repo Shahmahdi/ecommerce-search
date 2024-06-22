@@ -15,5 +15,5 @@ Node (>= 18.17.0)
 
 - Clone this project in your device.
 - Go to the project folder and run ``` npm install ```, then ``` npm run build ``` and then ``` npm start ``` script.
-- And then go to the chrome browser and hit this URL: ``` localhost:3000 ```.
+- And then go to the chrome browser and hit this URL: ``` http://localhost:3000 ```.
 
